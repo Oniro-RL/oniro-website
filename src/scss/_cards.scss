@@ -1,0 +1,87 @@
+.card {
+    border-radius: 5px;
+    color: white;
+    background: #888888;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    .main {
+        min-width: 86%;
+    }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    .card-content {
+        font-size: 0.9em;
+        margin: 5px;
+    }
+    &.card-blog {
+        display: flex;
+        background-color: #99cc00;
+        .card-img {
+            border-radius: 5px;
+            min-height: 99%;
+        }
+    }
+    &.card-reve {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+
+        .main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-date {
+            text-align: center;
+            max-height: 100px;
+            margin-top: auto;
+            margin-bottom: auto;
+            .card-date-number {
+                font-size: 2rem;
+            }
+            .card-date-day {
+                font-size: 2rem;
+                font-style: italic;
+            }
+        }
+    }
+    &.new_month {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: right;
+    }
+    .card-sweet {
+        color: #0061CB;
+        text-decoration: none;
+        transition: 0.3s all ease-in-out;
+        border-bottom: 1px solid transparent;
+    }
+    .card-sweet:hover {
+        border-color: #0061CB;
+        color: #0061CB;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+    .card-author {
+        font-size: 1em;
+        font-style: italic;
+        &:before {
+            content: ' ';
+        }
+    }
+
+    &.card-changelog {
+        padding: 10px;
+        .card-changelog-img {
+            border-radius: 5px;
+            max-width: 100%;
+        }
+    }
+}
+

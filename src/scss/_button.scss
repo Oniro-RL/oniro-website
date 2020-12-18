@@ -1,0 +1,194 @@
+// GENERAL 
+
+button.btn {
+    transition: 0.3s all ease filter;
+    cursor: pointer;
+    color: black;
+    
+    border: 0px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 5px;
+}
+
+button.btn:hover {
+    transform: translate(0px, -1px);
+}
+
+// LARGE/SMALL/BLOCK
+button.btn.btn-lg {
+    font-size: 20px;
+}
+
+button.btn.btn-sm {
+    font-size: 11px;
+}
+
+button.btn.btn-block {
+    @extend button.btn.btn-lg;
+    //width: 30%;
+    width: 100%;
+}
+
+// CLASSIC
+
+button.btn.btn-primary {
+    background: $primary-color;
+    color: white;
+}
+
+button.btn.btn-secondary {
+    background: $secondary-color;
+    color: white;
+}
+
+button.btn.btn-danger {
+    background: $danger-color;
+    color: white;
+}
+
+button.btn.btn-success {
+    background: $success-color;
+    color: white;
+}
+
+button.btn.btn-info {
+    background: $info-color;
+    color: white;
+}
+
+// NOT ALLOWED
+
+button.btn.btn-not_allowed {
+    cursor: not-allowed;
+    transform: translate(0px, 0px);
+}
+
+// OUTLINE 
+
+button.btn.btn-outline-primary {
+    border: 1px $primary-color solid;
+    background: transparent;
+    color: $primary-color;
+}
+
+button.btn.btn-outline-secondary {
+    border: 1px $secondary-color solid;
+    background: transparent;
+    color: $secondary-color;
+}
+
+button.btn.btn-outline-danger {
+    border: 1px $danger-color solid;
+    background: transparent;
+    color: $danger-color;
+}
+
+button.btn.btn-outline-success {
+    border: 1px $success-color solid;
+    background: transparent;
+    color: $success-color;
+}
+
+button.btn.btn-outline-info {
+    border: 1px $info-color solid;
+    background: transparent;
+    color: $info-color;
+}
+
+// Ripples Effect
+
+button {
+    overflow: hidden;
+    transform: translate(0px, 0px);
+  }
+  
+  button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+    margin-top: -60px;
+    border-radius: 100%;
+    opacity: 0.6;
+    transform: scale(0);
+  }
+
+  // General buttons
+
+  button.btn.btn-primary:after {
+    background: $ph-color;
+  }
+  
+  button.btn.btn-secondary:after {
+    background: $sdh-color;
+  }
+
+  button.btn.btn-success:after {
+    background: $sh-color;
+  }
+
+  button.btn.btn-danger:after {
+    background: $dh-color;
+  }
+
+  button.btn.btn-info:after {
+    background: $ih-color;
+  }
+
+  // Outlines buttons
+
+    button.btn.btn-outline-primary:after {
+    background: $ph-color;
+  }
+  
+  button.btn.btn-outline-secondary:after {
+    background: $sdh-color;
+  }
+
+  button.btn.btn-outline-success:after {
+    background: $sh-color;
+  }
+
+  button.btn.btn-outline-danger:after {
+    background: $dh-color;
+  }
+
+  button.btn.btn-outline-info:after {
+    background: $ih-color;
+  }
+
+
+  @keyframes ripple {
+    0% {
+      transform: scale(0);
+    }
+    20% {
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+  
+  button:not(:active):after {
+    animation: ripple 1.3s ease-out;
+  }
+  
+  /* fixes initial animation run, without user input, on page load.
+   */
+  button:after {
+    visibility: hidden;
+  }
+  
+  button:focus:after {
+    visibility: visible;
+  }
+  
+  

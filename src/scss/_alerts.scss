@@ -1,0 +1,48 @@
+// GENERAL
+
+div.alert {
+    padding: 11px 17px;
+    font-size: 14px;
+    line-height: 1.6;
+    border-radius: 5px;
+    background: transparent;
+    margin-bottom: 10px;
+    
+    a {
+        text-decoration: underline;
+        color: white;
+        transition: 0.2s all ease-in-out;
+    }
+    a:hover {
+        color: #E3E3E3;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+// CLASSIC
+
+div.alert.alert-primary {
+    background: $primary-color;
+    color: white;
+}
+
+div.alert.alert-secondary {
+    background: $secondary-color;
+    color: white;
+}
+
+div.alert.alert-danger {
+    background: $danger-color;
+    color: white;
+}
+
+div.alert.alert-success {
+    background: $success-color;
+    color: white;
+}
+
+div.alert.alert-info {
+    background: $info-color;
+    color: white;
+}

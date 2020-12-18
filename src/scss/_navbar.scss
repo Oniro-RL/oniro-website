@@ -1,0 +1,23 @@
+.navbar {
+    background: #2D3043;
+    border-bottom: 4px solid #B71C1C;
+
+    a {
+        z-index: 100;
+        display: block;
+        text-align: center;
+        padding: 1em;
+        text-decoration: none;
+        background: #2D3043;
+        color: white;
+        transition: 0.3s all  ease;
+        &:hover {
+            background: darken(#2D3043, 6%);
+        }
+    }
+    .left, .right {
+        display: flex;
+        flex: 1;
+    }
+}
+

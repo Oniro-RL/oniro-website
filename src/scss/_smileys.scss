@@ -1,0 +1,15 @@
+.smiley-code {
+    &:before {
+        content: ':';
+    }
+
+    &:after {
+        content: ':';
+    }
+}
+
+.smiley-code-special {
+    &:before {
+        content: ':';
+    }
+}

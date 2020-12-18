@@ -1,0 +1,20 @@
+{
+    "alpha_version_message_1": "Le site est actuellement en développement et de majeurs évolutions sont prévues pour le futur",
+
+    "title": "Oniro",
+    "catchphrase_1": "Oniro - Rêves Lucides",
+    "catchphrase_2": "Partez à la conquête des<br />Rêves Lucides",
+    "catchphrase_3": "Soyez un aventurier <br />sans limites",
+    "login": "Connexion",
+    "sign_up": "S'inscrire",
+
+    "navbar_home": "Accueil",
+    "navbar_library": "Bibliothèque",
+    "navbar_dreams_journal": "Journal de Rêves",
+    "navbar_add_method": "Ajouter une méthode",
+    "navbar_add_news": "Ajouter une news",
+    "navbar_list_members": "Liste des membres",
+    "navbar_statistics": "Statistiques",
+    "navbar_profile": "Profil",
+    "navbar_log_out": "Deconnexion"
+}

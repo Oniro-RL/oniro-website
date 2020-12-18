@@ -1,0 +1,20 @@
+{
+    "alpha_version_message_1": "The site is currently under development and major evolutions are planned for the future",
+
+    "title": "Oniro",
+    "catchphrase_1": "Oniro - Lucid Dreams",
+    "catchphrase_2": "Conquer the Lucid Dreams",
+    "catchphrase_3": "Be an adventurer <br />without limits",
+    "login": "Login",
+    "sign_up": "Sign Up",
+
+    "navbar_home": "Home",
+    "navbar_library": "Library",
+    "navbar_dreams_journal": "Dreams Journal",
+    "navbar_add_method": "Add a method",
+    "navbar_add_news": "Add a news",
+    "navbar_list_members": "List of members",
+    "navbar_statistics": "Statistics",
+    "navbar_profile": "Profile",
+    "navbar_log_out": "Log Out"
+}

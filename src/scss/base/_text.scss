@@ -1,0 +1,37 @@
+.title {
+    &.title-center {
+        align-items: center;
+    }
+    display: flex;
+    flex-direction: column;
+} 
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-mini {
+    font-size: 15px;
+}
+
+a {
+    color: #292b2c;
+}
+
+.statistiques-div-text {
+    h3 {
+        margin: 5px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    text-align: center;
+    margin-bottom: 10px;
+}

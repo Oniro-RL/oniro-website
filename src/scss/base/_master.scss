@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+	font-size: $font-size-global;
+}
+
+body {
+	background-image: /*#eae6e6*/ linear-gradient(rgb(35, 39, 65), #282341);
+	font-family: Raleway, -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #292b2c;
+}
+
+pre {
+	border-radius: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.alert {
+	color: #33b5e5;
+	font-style: italic;
+}

@@ -1,0 +1,90 @@
+.form-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-part-form {
+    min-width: 60%;
+    margin-right: 10px;
+    textarea {
+        margin-top: 10px;
+        padding: 5px;
+        border: solid 1px #c4c4c4;
+        border-radius: 2px;
+        width: 100%;
+    }
+    input {
+        padding: 5px;
+        border: solid 1px #c4c4c4;
+        border-radius: 2px;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+.deux-part-form {
+    max-width: 35%;
+    line-height: 25px;
+    button {
+        margin-top: 10px;
+    }
+    input, select {
+        border: solid 1px #c4c4c4;
+        border-radius: 2px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+    .first-part-form {
+        margin-bottom: 10px;
+    }
+}
+
+.connexion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .connexion-connexion {
+        display: flex;
+        flex-direction: column;
+        input {
+            padding: .5rem .75rem;
+            border: solid 1px #c4c4c4;
+            border-radius: 2px;
+            width: 100%;
+            font-size: 1rem;
+        }
+        
+    }
+    .connexion-inscription {
+        display: flex;
+        flex-direction: column;
+        input {
+            padding: .5rem .75rem;
+            border: solid 1px #c4c4c4;
+            border-radius: 2px;
+            width: 100%;
+            font-size: 1rem;
+            &:focus {
+                border-color: #5cb3fd;
+            }
+        }
+    }
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 5px;
+    border: solid 1px #c4c4c4;
+    border-radius: 2px;
+    width: 100%;
+}

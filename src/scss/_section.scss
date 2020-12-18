@@ -1,0 +1,26 @@
+.section {
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+	&.section-main {
+		background: white;
+		padding: 10px;
+	}
+
+	&.section-profile {
+		background: white;
+		padding: 10px;
+	}
+
+	&.section-link {
+		background: white;
+		padding: 4px;
+	}
+}
+
+.event-img {
+	border-radius: 5px;
+	width: 100%;
+	cursor: pointer;
+}
+

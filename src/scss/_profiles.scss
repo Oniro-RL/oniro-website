@@ -1,0 +1,38 @@
+.section {
+    &.section-profile {
+        .profile-avatar {
+            border-radius: 5px;
+            width: 100%;
+        }
+        .profile-pseudo {
+            color: #333;
+            font-size: 26px;
+            font-weight: bold;
+            text-align: center;
+            margin: 6px;
+        }
+        .profile-stats {
+            display: flex; 
+            justify-content: space-around;
+            text-align: center;
+            
+            .stats {
+                display: inline-block;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+            strong {
+                display: block;
+                color: #B3BaB2;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.2px;
+            }
+            span {
+                font-size: 26px;
+                color: #5E5E5E;
+                padding: .18em 0;
+            }
+        }
+    }
+}

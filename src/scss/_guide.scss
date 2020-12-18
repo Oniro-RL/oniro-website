@@ -1,0 +1,46 @@
+.guide-bubble-div-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+.guide-bubble-div-various {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.guide-bubble {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        a {
+            text-decoration: none;
+        }
+    
+        .icon {
+            border-radius: 25%;
+            //background: #E4E4E4;
+            background: #ffbb33;
+            height: 60px;
+            width: 60px;
+            position: relative;
+            cursor: pointer;
+            transition: 0.1s ease all;
+            &:hover {
+                transform: translate(0px, -3px);
+            }
+        }
+        .completed {
+            height: 30px;
+            position: absolute;
+        }
+}
+
+.guide_txt {
+    visibility: hidden;
+}
