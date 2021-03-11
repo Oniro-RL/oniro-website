@@ -22,9 +22,7 @@ $router->toController('error', 'error.php');
 
 if (!$permission_user->checkConnection()) {
     $router->toController('login', 'login.php');
-} 
-
-if ($permission_user->checkConnection()) {
+} else if ($permission_user->checkConnection()) {
     $router->toController('user', 'user.php');
     $router->toController('logout', 'logout.php');
     $router->toController('dreams_journal', 'dreams_journal.php');
